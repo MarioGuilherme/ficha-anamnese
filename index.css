@@ -1,1 +1,157 @@
-body{background:#7cf6d4;font-family:"Inter",system-ui,sans-serif;padding-left:200px}@media (max-width:1200px){body{padding-left:0!important}}.pr-0{padding-right:0px!important}.rg-5{row-gap:5px!important}.container-fluid,.container-fluid.px-5{padding-left:0!important;padding-right:0!important}.form-wrapper{background:#fff;padding:35px;border-radius:16px;box-shadow:0 6px 20px rgb(0 0 0 / .08);margin:10px 10px 10px 0px!important;gap:30px 0}@media (max-width:1200px){.form-wrapper{width:100%!important;margin:10px!important}}h1,h3.section-title{font-weight:700;color:#003d73}.section-title{border-left:5px solid #0077c2;padding-left:10px;margin-bottom:10px;font-size:22px}label.form-label{color:#003d73;font-weight:600}input.form-control,select.form-select,textarea.form-control{border-radius:10px;padding:10px;border:1px solid #c4d3e0}input.form-control:focus,select.form-select:focus,textarea.form-control:focus{border-color:#0077c2;box-shadow:0 0 0 .15rem rgb(0 119 194 / .25)}.info-box{background:#f4f9ff;padding:12px 16px;border-left:4px solid #0077c2;border-radius:6px;color:#003d73;margin-bottom:15px}.section-divider{border-top:2px dashed #c4d3e0}textarea{min-height:60px}@media (min-width:1100px){.form-wrapper{display:flex;flex-direction:column}}.side-nav{position:fixed;left:10px;width:180px;background:#ffffffeb;backdrop-filter:blur(6px);border-radius:12px;padding:12px;box-shadow:0 4px 14px rgb(0 0 0 / .15);z-index:1000}.side-nav a{display:block;padding:8px 10px;border-radius:8px;color:#003d73;font-weight:600;text-decoration:none;margin-bottom:4px}.side-nav a:hover{background:#e0efff}@media (max-width:1200px){.side-nav{display:none!important}}.btn-primary,.btn-secondary,.btn-danger{border-radius:10px;padding:12px 18px}.btn-primary{background:#0077c2;border:none}
+/* ============================
+   TEMA MÉDICO
+   ============================ */
+
+body {
+  background: #7cf6d4;
+  font-family: "Inter", system-ui, sans-serif;
+  padding-left: 200px;
+  /* espaço da sidebar */
+}
+
+@media (max-width: 1200px) {
+  body {
+    padding-left: 0 !important;
+  }
+}
+
+.pr-0 {
+  padding-right: 0px !important
+}
+
+.rg-5 {
+  row-gap: 5px !important
+}
+
+/* Container sem padding lateral */
+.container-fluid,
+.container-fluid.px-5 {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* CARD PRINCIPAL */
+.form-wrapper {
+  background: #ffffff;
+  padding: 35px;
+  border-radius: 16px;
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.08);
+  margin: 10px 10px 10px 0px !important;
+  gap: 30px 0px;
+}
+
+@media (max-width: 1200px) {
+  .form-wrapper {
+    width: 100% !important;
+    margin: 10px !important;
+  }
+}
+
+h1,
+h3.section-title {
+  font-weight: 700;
+  color: #003d73;
+}
+
+.section-title {
+  border-left: 5px solid #0077c2;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+label.form-label {
+  color: #003d73;
+  font-weight: 600;
+}
+
+input.form-control,
+select.form-select,
+textarea.form-control {
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid #c4d3e0;
+}
+
+input.form-control:focus,
+select.form-select:focus,
+textarea.form-control:focus {
+  border-color: #0077c2;
+  box-shadow: 0 0 0 0.15rem rgba(0, 119, 194, .25);
+}
+
+/* Info box */
+.info-box {
+  background: #f4f9ff;
+  padding: 12px 16px;
+  border-left: 4px solid #0077c2;
+  border-radius: 6px;
+  color: #003d73;
+  margin-bottom: 15px;
+}
+
+/* Divisor horizontal */
+.section-divider {
+  border-top: 2px dashed #c4d3e0
+}
+
+textarea {
+  min-height: 60px;
+}
+
+
+@media (min-width: 1100px) {
+  .form-wrapper {
+    display: flex;
+    flex-direction: column
+  }
+}
+
+/* ============================
+   SIDEBAR
+   ============================ */
+
+.side-nav {
+  position: fixed;
+  left: 10px;
+  width: 180px;
+  background: #ffffffeb;
+  backdrop-filter: blur(6px);
+  border-radius: 12px;
+  padding: 12px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
+}
+
+.side-nav a {
+  display: block;
+  padding: 8px 10px;
+  border-radius: 8px;
+  color: #003d73;
+  font-weight: 600;
+  text-decoration: none;
+  margin-bottom: 4px;
+}
+
+.side-nav a:hover {
+  background: #e0efff;
+}
+
+@media (max-width: 1200px) {
+  .side-nav {
+    display: none !important;
+  }
+}
+
+/* BOTÕES */
+.btn-primary,
+.btn-secondary,
+.btn-danger {
+  border-radius: 10px;
+  padding: 12px 18px;
+}
+
+.btn-primary {
+  background: #0077c2;
+  border: none;
+}

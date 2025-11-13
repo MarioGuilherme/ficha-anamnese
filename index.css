@@ -42,8 +42,11 @@ body {
 
 @media (max-width: 1200px) {
   .form-wrapper {
-    width: 100% !important;
     margin: 10px !important;
+    flex-direction: column;
+    display: flex;
+    gap: 30px 0px;
+    margin: 10px !important
   }
 }
 
